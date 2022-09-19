@@ -1,0 +1,1 @@
+Grafana is a tool for visualizing time series data. It is a web application that can be used to display data from Prometheus and Loki.

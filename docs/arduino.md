@@ -1,0 +1,1 @@
+HC-SR04 is an Ultrasonic distance sensor with a range of upto 400 centimeters.

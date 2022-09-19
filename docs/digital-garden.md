@@ -1,0 +1,1 @@
+A digital garden is different from a blog in the way that information is slowly nurtured over time instead of presenting all the information at once. The author does not feel any pressure to be perfect at the subject and can instead slowly iterate over his knowledge.

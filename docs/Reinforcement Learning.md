@@ -1,0 +1,1 @@
+The traditional Q-learning model is weak since it requires access to the Q-table. Instead, we can use a Neural Network to approximate the Q-table. This is called Deep Q-Learning. The network takes in the state as input and outputs the Q-values for each action. The NN estimates the possible actions from the state provided.

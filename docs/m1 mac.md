@@ -7,6 +7,12 @@ Currently, I am using [multipass](https://multipass.run/install) to install ubun
 This requires generating a SSH keypair on my host system and then copying the public key to the ubuntu instance. 
 
 
+### Mounting the home directory to the ubuntu instance
+This is done using `multipass mount $HOME docker` command. This mounts the home directory to the home directory in the ubuntu instance.
+
+#### Minor bug with mounting
+On macOS Monterey, the `mount` command does not give the correct permissions. Go to `System Preferences` -> `Security & Privacy` -> `Privacy` -> `Full Disk Access` and add `multipassd` to the list of applications. This should fix the issue.
+
 ## Links
 
 - [multipass - Troubleshooting networking](https://multipass.run/docs/troubleshoot-networking#heading--troubleshoot-networking-on-macos)

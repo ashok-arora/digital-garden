@@ -13,6 +13,12 @@ This is done using `multipass mount $HOME docker` command. This mounts the home 
 #### Minor bug with mounting
 On macOS Monterey, the `mount` command does not give the correct permissions. Go to `System Preferences` -> `Security & Privacy` -> `Privacy` -> `Full Disk Access` and add `multipassd` to the list of applications. This should fix the issue.
 
+
+## Notes
+
+* NTFS formatted drives are not supported by the m1 mac. I had to format my external hard drive to FAT32 to be able to use it on my m1 mac.
+
+
 ## Links
 
 - [multipass - Troubleshooting networking](https://multipass.run/docs/troubleshoot-networking#heading--troubleshoot-networking-on-macos)

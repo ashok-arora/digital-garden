@@ -1,0 +1,9 @@
+Tensorflow and PyTorch are two of the most popular deep learning frameworks.
+
+[JAX](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html) is a new deep learning framework that uses GPU and TPU to accelerate computations.
+
+* "Gradient descent" is fancy math wording for "if you you want to find the bottom, go downhill".
+
+Machine learning is a kind of optimization...keep changing numbers in a function (possibly randomly, possibly in a structured way) to make some output number as good as you can get it. You're either trying to minimize or maximize the output number. That output number is how "good" the machine learning algorithm is. Frequently it will be the error rate for some decision problem...you want to minimize the error rate (make as few mistakes as possible).
+Gradient is a math operator that takes in a bunch of numbers and spits out a vector that points in the direction the numbers increase fastest. That's mathematically the "most uphill" direction. If you go *opposite* that, you're going downhill...that's gradient descent. Run a bunch of versions of your machine learning algorithm, so you get a bunch of output numbers. Figure out the gradient of those output numbers. Then go the opposite direction...that will tend to be towards the minimum output value. Then do that over and over again until you can't get the output number any smaller. You've found the "local minimum"...anywhere you go from there is "up".
+This may or may not be the "global mimimum", the best possible value you can find...this is analogous to standing in a valley and going downhill until you hit the stream at the bottom, but there's a valley next door that's even deeper. You'd have to have started *in that other valley* to find that minimum. Finding local minima is relatively easy, finding global minima (and proving they're global) is difficult. Hence we find the local and, if it's good enough (particularly common in machine learning), we call that good.

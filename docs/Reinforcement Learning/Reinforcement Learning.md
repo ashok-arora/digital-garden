@@ -123,6 +123,12 @@ Intelligent Traffic Control Systems is an application of Reinforcement Learning.
 Cognitive radio networks is another application of Reinforcement Learning. The goal is to maximize the throughput of the network while minimizing the interference.
 
 
+## Toy Examples
+### [Cartpole Problem](./Cartpole%20Problem)
+
+<!-- TODO: add cartpole image -->
+
+
 ## References
 - [Good cheatsheet on Bellman Equation](https://github.com/udacity/deep-reinforcement-learning/blob/master/cheatsheet/cheatsheet.pdf)
 - [Lecture Notes on MDP and Bayesian Bandits](https://web.stanford.edu/class/cs234/CS234Win2019/slides/lecture12_postclass.pdf)

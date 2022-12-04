@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 
 :::tip
 Any goal can be formalized as the outcome of maximizing a cumulative reward.

@@ -1,3 +1,18 @@
+---
+sidebar_position: 3
+---
+
+# DevOps
+
+## Pages
+- [Docker](./docker.md)
+- [Grafana](./grafana.md)
+- [Kubernetes](./kubernetes.md)
+- [Linux](./linux.md)
+- [Networking](./networking.md)
+- [Python](./python.md)
+- [Raspberry Pi](./raspbery%20pi.md)
+
 ## Links to common tools
 - [HashiCorp Vault](https://www.vaultproject.io) for managing env secrets
 <!-- - [HashiCorp Consul](https://www.consul.io) for service discovery -->
